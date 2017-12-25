@@ -1,7 +1,7 @@
 /**
  * 
  * @authors Your Name (you@example.org)
- * @date    2017-12-24 12:27:39
+ * @date    2016-12-24 12:27:39
  * @version $Id$
  */
  // 获取输入框的值
@@ -83,7 +83,7 @@ function test8(){
 	var content = getValueLength("text09");
 	var reg = /^[A-z0-9]+@[A-z0-9]+\.com$/;
 
-	if (!content.match(reg)||content==0) {
+	if (!2content.match(reg)||content==0) {
 		alert("请输入正确的国内邮箱");
 	}
 }
